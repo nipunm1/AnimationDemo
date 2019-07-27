@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.animationdemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GifAnimationActivity"></activity>
+        <activity android:name=".LottieAnimationActivity" />
+        <activity android:name=".TogetherAnimationActivity" />
+        <activity android:name=".SequencialAnimationActivity" />
+        <activity android:name=".BounceActivity" />
+        <activity android:name=".SlideDownActivity" />
+        <activity android:name=".SlideUpActivity" />
+        <activity android:name=".MoveActivity" />
+        <activity android:name=".RotateActivity" />
+        <activity android:name=".ZoomOutActivity" />
+        <activity android:name=".ZoomInActivity" />
+        <activity android:name=".BlinkActivity" />
+        <activity android:name=".CrossFadingActivity" />
+        <activity android:name=".FadeoutActivity" />
+        <activity android:name=".FadeinActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
